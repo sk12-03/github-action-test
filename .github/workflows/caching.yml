@@ -27,7 +27,7 @@ jobs:
           key: cache-a5dc2d4
 
       - name: Install dependencies
-        run: uv pip install -r requirements.txt
+        run: uv pip install -r .github/workflows/requirements.txt
 
       - name: prime-cache-a5dc2d4
         run: |
